@@ -7,6 +7,33 @@
     <artifactId>tomcat-embedded-ssl-example</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+    <url>https://github.com/bluelotussoftware/tomcat-embedded-ssl-example</url>
+    <inceptionYear>2016</inceptionYear>
+    <organization>
+        <name>Blue Lotus Software, LLC.</name>
+        <url>http://www.bluelotussoftware.com</url>
+    </organization>
+    <scm>
+        <connection>scm:git:https://github.com/bluelotussoftware/tomcat-embedded-ssl-example.git</connection>
+        <developerConnection>scm:git:https://github.com/bluelotussoftware/tomcat-embedded-ssl-example.git</developerConnection>
+        <url>https://github.com/bluelotussoftware/tomcat-embedded-ssl-example/tree/master/src</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>jyeary</id>
+            <name>John Yeary</name>
+            <email>jyeary@bluelotussoftware.com</email>
+            <organization>Blue Lotus Software, LLC.</organization>
+            <organizationUrl>http://www.bluelotussoftware.com</organizationUrl>
+            <url>http://javaevangelist.blogspot.com</url>
+            <timezone>-6</timezone>
+            <roles>
+                <role>Principal</role>
+                <role>Architect</role>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
