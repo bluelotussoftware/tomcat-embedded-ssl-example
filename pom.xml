@@ -18,6 +18,10 @@
         <developerConnection>scm:git:https://github.com/bluelotussoftware/tomcat-embedded-ssl-example.git</developerConnection>
         <url>https://github.com/bluelotussoftware/tomcat-embedded-ssl-example/tree/master/src</url>
     </scm>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/bluelotussoftware/tomcat-embedded-ssl-example/issues</url>
+    </issueManagement>
     <developers>
         <developer>
             <id>jyeary</id>
