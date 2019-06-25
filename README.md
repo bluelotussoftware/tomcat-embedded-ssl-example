@@ -1,5 +1,5 @@
 # tomcat-embedded-ssl-example
-An example implementation of embedded Apache Tomcat 8.0 with SSL/TLS.
+An example implementation of embedded Apache Tomcat 8.5 with SSL/TLS.
 
 # Required Software
 * Apache Maven 3.3

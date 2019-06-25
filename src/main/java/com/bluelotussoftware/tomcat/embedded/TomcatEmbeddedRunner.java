@@ -121,7 +121,7 @@ public class TomcatEmbeddedRunner {
      * Add a Servlet 3.0 application to the server.
      */
     private void addHelloWebApplication() {
-        try {
+//        try {
             //Add Servlet 3.0
             StandardContext ctx = (StandardContext) tomcat.addWebapp("/web",
                     new File("src/main/webapp").getAbsolutePath());
@@ -134,8 +134,8 @@ public class TomcatEmbeddedRunner {
             WebResourceSet resourceSet = new DirResourceSet(resources, "/WEB-INF/classes", classes.toFile().getAbsolutePath(), "/");
             resources.addPreResources(resourceSet);
             ctx.setResources(resources);
-        } catch (ServletException ex) {
-            ex.printStackTrace(System.err);
-        }
+//        } catch (ServletException ex) {
+//            ex.printStackTrace(System.err);
+//        }
     }
 }
